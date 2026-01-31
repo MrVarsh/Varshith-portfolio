@@ -2,54 +2,54 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github, Award, Database, Brain, Gamepad2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import projectNews from '@/assets/news_classification.jpg';
-import projectNlp from '@/assets/cross-lingual.jpeg';
-import projectRubiks from '@/assets/rubiks.jpeg';
-import projectHotel from '@/assets/hotel.jpeg';
+import projectRag from '@/assets/projectRag.png';
+import projectAttrition from '@/assets/projectAttrition.webp';
+import projectAgent from '@/assets/projectAgent.jpg';
+import projectWordGame from '@/assets/projectWordGame.png';
 
 const projects = [
   {
-    title: 'Scalable News Classification System',
-    description: 'Machine Learning powered news classification system with 92% accuracy. Built with Flask and deployed on AWS with REST API integration.',
-    technologies: ['Python', 'Machine Learning', 'Flask', 'AWS', 'REST API'],
-    icon: Brain,
+    title: 'Advanced RAG System for Research Papers',
+    description: 'Production-grade Retrieval-Augmented Generation (RAG) system for semantic search and question answering over long-form academic research papers using LLMs and vector databases.',
+    technologies: ['Python', 'LLMs', 'LangChain', 'ChromaDB', 'Vector Search', 'Streamlit'],
+    icon: Award,
     color: 'from-blue-500 to-cyan-500',
-    achievements: ['92% Accuracy', 'AWS Deployment', 'REST API'],
-    backgroundImage: projectNews,
-    github: 'https://github.com/MrVarshu',
+    achievements: ['RAG Architecture', 'Hallucination Reduction', 'Semantic Search'],
+    backgroundImage: projectRag,
+    github: 'https://github.com/MrVarshu/intelligent-rag-system.git',
     demo: '#'
   },
   {
-    title: 'Cross-Lingual Transfer Learning',
-    description: 'Advanced NLP project using mBERT for improved translation and classification capabilities for low-resource languages.',
-    technologies: ['Python', 'NLP', 'mBERT', 'Transfer Learning', 'Deep Learning'],
+    title: 'Employee Attrition Prediction System',
+    description: 'End-to-end machine learning pipeline to predict employee attrition using structured HR data with class imbalance handling and explainable AI techniques.',
+    technologies: ['Python', 'Machine Learning', 'LightGBM', 'Optuna', 'SHAP', 'Gradio'],
     icon: Database,
     color: 'from-purple-500 to-pink-500',
-    achievements: ['Transfer Learning', 'mBERT Integration', 'NLP Innovation'],
-    backgroundImage: projectNlp,
-    github: 'https://github.com/MrVarshu',
+    achievements: ['ROC-AUC ≈ 0.90', 'Explainable ML', 'Class Imbalance Handling'],
+    backgroundImage: projectAttrition,
+    github: 'https://github.com/MrVarshu/Employee-Attrition-Prediction.git',
     demo: '#'
   },
   {
-    title: 'Rubik\'s Cube Solver & Simulator',
-    description: 'Interactive Rubik\'s cube solver with educational visualization built using Python and Pygame. Features auto-solver algorithms.',
-    technologies: ['Python', 'Pygame', 'Algorithms', 'Computer Graphics'],
-    icon: Gamepad2,
+    title: 'ReAct Reasoning Agent',
+    description: 'LLM-powered ReAct (Reasoning + Acting) agent capable of dynamic tool selection for real-time information retrieval with transparent reasoning traces.',
+    technologies: ['Python', 'LLM Agents', 'ReAct', 'APIs', 'Gradio'],
+    icon: Brain,
     color: 'from-green-500 to-emerald-500',
-    achievements: ['Auto-Solver', 'Visualization', 'AeroHack\'25 Finalist'],
-    backgroundImage: projectRubiks,
-    github: 'https://github.com/MrVarshu/Rubiks_cube_solver',
+    achievements: ['Tool Calling', 'Reasoning Traces', 'Agent Architecture'],
+    backgroundImage: projectAgent,
+    github: 'https://github.com/MrVarshu/ReAct-reasoning-agent.git',
     demo: '#'
   },
   {
-    title: 'Hotel Management System',
-    description: 'Full-stack MERN application with JWT authentication and optimized database queries resulting in 30% performance improvement.',
-    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT'],
-    icon: Award,
+    title: 'Full-Stack Word Game Platform',
+    description: 'Secure full-stack Wordle-style game platform with authentication, gameplay analytics, and admin dashboards built using React and Spring Boot.',
+    technologies: ['React (Next.js)', 'Spring Boot', 'REST APIs', 'JWT', 'MySQL'],
+    icon: Gamepad2,
     color: 'from-orange-500 to-red-500',
-    achievements: ['JWT Auth', '30% Faster Queries', 'MERN Stack'],
-    backgroundImage: projectHotel,
-    github: 'https://github.com/MrVarshu/Hotel-Management-System',
+    achievements: ['JWT Authentication', 'Full-Stack Architecture', 'Admin Analytics'],
+    backgroundImage: projectWordGame,
+    github: 'https://github.com/MrVarshu/Word-game.git',
     demo: '#'
   }
 ];

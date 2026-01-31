@@ -4,19 +4,19 @@ import { Card, CardContent } from '@/components/ui/card';
 const skillCategories = [
   {
     title: 'Backend & Frameworks',
-    skills: ['Java', 'Python', 'Flask', 'React.js', 'Node.js'],
+    skills: ['Java', 'Python', 'Flask', 'React.js', 'Spring Boot'],
     color: '#00ffff',
     gradient: 'from-cyan-500 to-blue-500'
   },
   {
     title: 'Databases',
-    skills: ['MySQL'],
+    skills: ['MySQL', 'ChromaDB', 'Weaviate', 'Solr'],
     color: '#a855f7',
     gradient: 'from-purple-500 to-violet-500'
   },
   {
     title: 'Programming Languages',
-    skills: ['Java', 'Python','C', 'SQL', 'HTML','CSS', 'JavaScript'],
+    skills: ['Java', 'Python','C', 'SQL', 'JavaScript'],
     color: '#ec4899',
     gradient: 'from-pink-500 to-rose-500'
   },
@@ -45,8 +45,9 @@ const featured3DSkills = [
   { name: 'Java', color: '#f89820' },
   { name: 'Machine Learning', color: '#ff6b6b' },
   { name: 'Deep Learning', color: '#4ecdc4' },
-  { name: 'React', color: '#61dafb' },
-  { name: 'Node.js', color: '#68a063' },
+  { name: 'Natural Language Processing', color: '#4ecdc4' },
+  { name: 'React js', color: '#61dafb' },
+  { name: 'SpringBoot', color: '#68a063' },
 ];
 
 export function SkillsSection() {

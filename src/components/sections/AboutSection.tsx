@@ -8,7 +8,7 @@ const education = [
     degree: 'B.Tech CSE (AI & ML)',
     institution: 'B V Raju Institute of Technology',
     period: '2022 - 2026',
-    cgpa: '8.81',
+    cgpa: '8.89',
     icon: GraduationCap,
   },
   {
