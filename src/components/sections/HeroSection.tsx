@@ -99,7 +99,7 @@ export function HeroSection() {
               variant="hero" 
               size="lg"
               className="group"
-              onClick={() => window.open('https://drive.google.com/file/d/1hvPQDe-uOA48IiQg-awE9KmUH344vMAw/view?usp=drive_link', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1qBcXSgbHriD0HuEc_pPqTK7zkoLXhG3v/view?usp=drive_link', '_blank')}
             >
               <Download className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
               View Resume
