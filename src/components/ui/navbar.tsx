@@ -113,7 +113,7 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => window.open('https://github.com/MrVarshu', '_blank')}
+              onClick={() => window.open('https://github.com/MrVarsh', '_blank')}
               className="hover-glow-primary"
             >
               <Github className="h-5 w-5" />
@@ -121,7 +121,7 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => window.open('https://linkedin.com/in/varshith-puppireddy-85a3a0259', '_blank')}
+              onClick={() => window.open('https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/', '_blank')}
               className="hover-glow-primary"
             >
               <Linkedin className="h-5 w-5" />
@@ -175,14 +175,14 @@ export function Navbar() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  onClick={() => window.open('https://github.com/MrVarshu', '_blank')}
+                  onClick={() => window.open('https://github.com/MrVarsh', '_blank')}
                 >
                   <Github className="h-5 w-5" />
                 </Button>
                 <Button
                   variant="ghost"
                   size="icon"
-                  onClick={() => window.open('https://linkedin.com/in/varshith-puppireddy-85a3a0259', '_blank')}
+                  onClick={() => window.open('https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/', '_blank')}
                 >
                   <Linkedin className="h-5 w-5" />
                 </Button>
