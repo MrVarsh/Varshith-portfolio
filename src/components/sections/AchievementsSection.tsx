@@ -31,6 +31,15 @@ const achievements = [
 
 const experiences = [
   {
+  title: 'AI/ML Developer Intern',
+  company: 'OpenText',
+  period: '2025-2026',
+  description: 'Delivered Natural Language Search (NLS) on a legacy DAM platform using Solr to enable semantic, intent-based queries. Built a section-aware RAG pipeline for academic PDFs with improved answer relevance and reduced hallucinations. Developed an employee attrition prediction model using LightGBM with SHAP/LIME explainability. Implemented a tool-augmented LLM agent using ReAct for real-time QA. Also built a full-stack platform using Next.js and Spring Boot with secure APIs and analytics dashboards.',
+  icon: Briefcase,
+  color: 'from-purple-500 to-indigo-500',
+  link: 'https://drive.google.com/file/d/1NzMUSv1hUTJp7GdceopeudL9xDhG59af/view?usp=drive_link',
+  },
+  {
     title: 'Summer of AI Intern',
     company: 'Swecha',
     period: '2024',
