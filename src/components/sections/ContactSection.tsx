@@ -18,22 +18,22 @@ const contactInfo = [
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/MrVarshu',
-    href: 'https://github.com/MrVarshu',
+    value: 'github.com/MrVarsh',
+    href: 'https://github.com/MrVarsh',
     color: 'from-gray-500 to-gray-700'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'Varshith Puppireddy',
-    href: 'https://linkedin.com/in/varshith-puppireddy-85a3a0259',
+    value: 'Puppireddy Varshith',
+    href: 'https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/',
     color: 'from-blue-600 to-blue-800'
   }
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/MrVarshu', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/varshith-puppireddy-85a3a0259', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/MrVarsh', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/', label: 'LinkedIn' },
   { icon: Mail, href: 'mailto:puppireddyvarshith@gmail.com', label: 'Email' }
 ];
 
