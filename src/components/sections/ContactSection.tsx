@@ -368,7 +368,7 @@ export function ContactSection() {
                 <Button
                   variant="neon"
                   size="lg"
-                  onClick={() => window.open('https://linkedin.com/in/varshith-puppireddy-85a3a0259', '_blank')}
+                  onClick={() => window.open('https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/', '_blank')}
                 >
                   <Linkedin className="mr-2 h-5 w-5" />
                   Connect on LinkedIn
