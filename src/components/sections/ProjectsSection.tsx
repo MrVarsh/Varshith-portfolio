@@ -16,7 +16,7 @@ const projects = [
     color: 'from-blue-500 to-cyan-500',
     achievements: ['RAG Architecture', 'Hallucination Reduction', 'Semantic Search'],
     backgroundImage: projectRag,
-    github: 'https://github.com/MrVarshu/intelligent-rag-system.git',
+    github: 'https://github.com/MrVarsh/intelligent-rag-system',
     demo: '#'
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     color: 'from-purple-500 to-pink-500',
     achievements: ['ROC-AUC ≈ 0.90', 'Explainable ML', 'Class Imbalance Handling'],
     backgroundImage: projectAttrition,
-    github: 'https://github.com/MrVarshu/Employee-Attrition-Prediction.git',
+    github: 'https://github.com/MrVarsh/Employee-Attrition-Prediction',
     demo: '#'
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     color: 'from-green-500 to-emerald-500',
     achievements: ['Tool Calling', 'Reasoning Traces', 'Agent Architecture'],
     backgroundImage: projectAgent,
-    github: 'https://github.com/MrVarshu/ReAct-reasoning-agent.git',
+    github: 'https://github.com/MrVarsh/ReAct-reasoning-agent',
     demo: '#'
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     color: 'from-orange-500 to-red-500',
     achievements: ['JWT Authentication', 'Full-Stack Architecture', 'Admin Analytics'],
     backgroundImage: projectWordGame,
-    github: 'https://github.com/MrVarshu/Word-game.git',
+    github: 'https://github.com/MrVarsh/Word-game',
     demo: '#'
   }
 ];
@@ -196,7 +196,7 @@ export function ProjectsSection() {
               <Button 
                 variant="hero" 
                 size="lg"
-                onClick={() => window.open('https://github.com/MrVarshu', '_blank')}
+                onClick={() => window.open('https://github.com/MrVarsh', '_blank')}
                 className="group"
               >
                 <Github className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
