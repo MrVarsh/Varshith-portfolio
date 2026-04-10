@@ -13,13 +13,13 @@ const quickLinks = [
 const socialLinks = [
   { 
     icon: Github, 
-    href: 'https://github.com/MrVarshu', 
+    href: 'https://github.com/MrVarsh', 
     label: 'GitHub',
     color: 'hover:text-gray-400'
   },
   { 
     icon: Linkedin, 
-    href: 'https://linkedin.com/in/varshith-puppireddy-85a3a0259', 
+    href: 'https://www.linkedin.com/in/puppireddy-varshith-85a3a0259/', 
     label: 'LinkedIn',
     color: 'hover:text-blue-400'
   },
