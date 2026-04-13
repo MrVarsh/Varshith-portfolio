@@ -26,6 +26,22 @@ const achievements = [
     color: 'from-green-500 to-emerald-500',
     value: '100+',
     category: 'Mentorship'
+  },
+  {
+    icon: Target,
+    title: 'GATE 2026 AIR 1790',
+    description: 'Secured All India Rank 1790 in GATE 2026 (Data Science & Artificial Intelligence)',
+    color: 'from-cyan-500 to-blue-500',
+    value: '1790',
+    category: 'Entrance Exam'
+  },
+  {
+    icon: Award,
+    title: 'Department Topper',
+    description: 'Recognized as 7th Sem CSE AI & ML topper on Annual Day with SQPA 9.4',
+    color: 'from-rose-500 to-pink-500',
+    value: '9.4 SQPA',
+    category: 'Academic Excellence'
   }
 ];
 
@@ -123,7 +139,7 @@ export function AchievementsSection() {
         </motion.div>
 
         {/* Key Achievements */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-16">
           {achievements.map((achievement, index) => (
             <motion.div
               key={achievement.title}
